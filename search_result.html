@@ -1,0 +1,726 @@
+
+<!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> -->
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>(사)한국코치협회</title>
+<link rel="stylesheet" href="http://kcoach.or.kr/style.css" type="text/css">
+</head>
+<script type="text/javascript">
+// 자바스크립트에서 사용하는 전역변수 선언
+var g4_path      = ".";
+var g4_bbs       = "bbs";
+var g4_bbs_img   = "img";
+var g4_url       = "http://kcoach.or.kr";
+var g4_is_member = "";
+var g4_is_admin  = "";
+var g4_bo_table  = "";
+var g4_sca       = "";
+var g4_charset   = "utf-8";
+var g4_cookie_domain = "";
+var g4_is_gecko  = navigator.userAgent.toLowerCase().indexOf("gecko") != -1;
+var g4_is_ie     = navigator.userAgent.toLowerCase().indexOf("msie") != -1;
+</script>
+<script type="text/javascript" src="http://kcoach.or.kr/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="http://kcoach.or.kr/js/common.js"></script>
+<body topmargin="0" leftmargin="0" >
+<a name="g4_head"></a>
+<link rel="stylesheet" type="text/css" href="http://kcoach.or.kr/css/common.css">
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+
+
+
+
+
+
+
+function first(){
+	var left_size =$(window).width();
+	$("#Layer1").css({'left':(left_size/2)-473});
+	$("#Layer2").css({'left':(left_size/2)-473});
+	$('#Layer1').slideDown();
+}
+function second(){
+		var left_size =$(window).width();
+	$("#Layer1").css({'left':(left_size/2)-473});
+	$("#Layer2").css({'left':(left_size/2)-473});
+	$('#Layer1').slideUp();
+
+}
+
+$(window).resize(function(){
+	var left_size =$(window).width();
+
+	if(left_size > 950){
+		$("#Layer1").css({'left':(left_size/2)-473});
+	}
+
+});
+
+
+</script>
+
+</head>
+
+<script type="text/javascript" src="/js/amazon_scroller.js"></script>
+
+
+
+<body onLoad="MM_preloadImages('http://kcoach.or.kr/images/common/menu01on.jpg','http://kcoach.or.kr/images/common/menu02on.jpg','http://kcoach.or.kr/images/common/menu03on.jpg','http://kcoach.or.kr/images/common/menu04on.jpg','http://kcoach.or.kr/images/common/menu05on.jpg','http://kcoach.or.kr/images/common/menu06on.jpg','http://kcoach.or.kr/images/common/menu07on.jpg')">
+
+
+	<div id="Layer1" style="position:absolute;  top:122px; width:946px; height:218px; z-index:4; left: 100px ; display:none">
+		<table width="946" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td><img src="http://kcoach.or.kr/images/main/all_menu_top.jpg" width="946" height="50"></td>
+			</tr>
+			<tr>
+				<td align="center" style="background:url(http://kcoach.or.kr/images/main/all_menu_bg.jpg) top left;"><table width="945" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td align="right"><table width="116" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="left" valign="top" style="font-size:11px; line-height:16px; ">
+						<a href="http://kcoach.or.kr/01about/about01.html" class="all">인사말</a><br>
+									<a href="/01about/about02.html" class="all">설립목적 및 연혁</a><br>
+									<a href="/01about/about03.html" class="all">미션&amp;비전</a><br>
+									<a href="/01about/about04.html" class="all">주요활동</a><br>
+									<a href="/01about/about05.html" class="all">조직도</a><br>
+									<a href="/01about/about06.html" class="all">윤리규정</a><br>
+									<a href="/01about/about07.html" class="all">협회 협력분야</a><br>
+									<a href="/01about/about08.html" class="all">오시는길</a></td>
+							</tr>
+						</table></td>
+						<td width="135" align="right" valign="top"><table width="120" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="left" style="font-size:11px; line-height:16px; ">
+								  <a href="/02guide/guide01.html" class="all">코칭소개</a><br>
+									<a href="/02guide/guide02.html" class="all">코칭의 역사</a><br>
+									<a href="/02guide/guide03.html" class="all">코칭분야의 활용</a></td>
+							</tr>
+						</table></td>
+						<td width="135" align="right" valign="top"><table width="120" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="left" style="font-size:11px; line-height:16px; ">
+								  <a href="/03certi/certi.html" class="all">코치인증</a><br>
+									<a href="/03certi/certi02.html" class="all">프로그램인증</a><br>
+									<a href="/03certi/certi03.html" class="all">KAC자격인증기관</a><br>
+									<a href="/bbs/board.php?bo_table=certi_notice" class="all">자격인증공지사항</a></td>
+							</tr>
+						</table></td>
+						<td width="135" align="right" valign="top"><table width="120" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="left" style="font-size:11px; line-height:16px; ">
+									<a href="/04biz/biz01.html" class="all">인증코치소개</a><br>
+									<a href="/04biz/biz02.html" class="all">인증코치리스트</a><br>
+									<a href="/04biz/biz03.html" class="all">인증코치찾기</a></td>
+							</tr>
+						</table></td>
+						<td width="135" align="right" valign="top"><table width="120" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="left" style="font-size:11px; line-height:16px; ">
+									<a href="/bbs/board.php?bo_table=seminar" class="all">월례세미나</a><br>
+									<a href="/05edu/edu02.html" class="all">코칭문화 아카데미</a><br>
+									<a href="/bbs/board.php?bo_table=edu_lab" class="all">기업코칭 연구회</a><br>
+									<a href="/bbs/board.php?bo_table=edu_coaching" class="all">학습진로코칭교육</a><br>
+									<a href="/bbs/board.php?bo_table=edu_etc" class="all">특별교육</a><br>
+									<a href="/bbs/board.php?bo_table=edu_conference" class="all">대한민국코치대회</a><br>
+									<a href="/05edu/edu07.html" class="all">교육일정표</a></td>
+							</tr>
+						</table></td>
+						<td width="135" align="right" valign="top"><table width="120" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="left" style="font-size:11px; line-height:16px; ">
+									<a href="/bbs/board.php?bo_table=notice" class="all">공지사항</a><br>
+									<a href="/bbs/board.php?bo_table=kca_news" class="all">KCA소식</a><br>
+									<a href="/bbs/board.php?bo_table=photo" class="all">포토갤러리</a><br>
+									<a href="/bbs/board.php?bo_table=kca_news_letter" class="all">뉴스레터</a><br>
+									<a href="/bbs/board.php?bo_table=bodo" class="all">미디어스크랩</a><br>
+									<a href="/04biz/biz02_v3.html" class="all">참여마당</a></td>
+							</tr>
+						</table></td>
+						<td width="135" align="right" valign="top"><table width="120" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="left" style="font-size:11px; line-height:16px; ">
+								<a href="/07reference/reference01.html" class="all">E-TEST</a><br>
+								<a href="/bbs/board.php?bo_table=coaching" class="all">코칭컬럼</a><br>
+								<a href="/bbs/board.php?bo_table=global" class="all">글로벌 코칭자료</a><br>
+								<a href="/bbs/board.php?bo_table=edu_pds" class="all">교육자료</a><br>
+								<a href="/bbs/board.php?bo_table=edu_mov" class="all">교육동영상</a><br>
+								<a href="/bbs/board.php?bo_table=etc_pds" class="all">기타자료 및 서식</a><br>
+								<a href="/bbs/board.php?bo_table=magazine" class="all">협회지</a></td>
+							</tr>
+						</table></td>
+					</tr>
+				</table></td>
+			</tr>
+			<tr>
+				<td><img src="http://kcoach.or.kr/images/main/all_menu_btm.jpg" width="945" height="24"></td>
+			</tr>
+		</table>
+	</div>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" id='sub_title2'>
+  <tr>
+    <td align="center">
+	<!--상단 -->
+	<table width="946" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+
+        <td height="22" align="right" valign="bottom"><table width="940" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="228" height="70" valign="bottom"><a href="/"><img src="http://kcoach.or.kr/images/common/logo.jpg" border="0"></a></td>
+            <td width="712" align="right" valign="bottom"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td align="right"><!--로그인 버튼 -->
+                      <table>
+                        <tr>
+                          <td></td>
+                          <td align="right"><table width="182" border="0" cellspacing="0" cellpadding="0"'>
+                              <tr>
+                                <td>                                    <a href="/bbs/login.php"><img src="http://kcoach.or.kr/images/common/top_s_login.jpg" width="40" height="12" border="0"></a>
+                                    </td>
+                                <td>                                    <a href="/bbs/register.php"><img src="http://kcoach.or.kr/images/common/top_s_join.jpg" width="46" height="12" border="0"></a>
+                                    </td>
+                                <td><a href="/sitemap/sitemap.html" class="all"><img src="http://kcoach.or.kr/images/common/top_s_sitemap.jpg" width="44" height="12" border="0"></a></td>
+                                <td><a href="/01about/about08.html" class="all"><img src="http://kcoach.or.kr/images/common/top_s_contact.jpg" width="52" height="12" border="0"></a></td>
+                              </tr>
+                          </table></td>
+                        </tr>
+                      </table>
+                      <!--로그인 버튼 끝 -->
+                  </td>
+                </tr>
+                <tr>
+                  <td align="right" style="padding-bottom:5px;">
+		    <form name='frm' action='/search_result.html' method='GET'>
+                      <table width="200" border="0" cellspacing="0" cellpadding="0" style="margin-top:5px; ">
+                        <tr>
+                          <td align="right"><input type="text" name="q" style="border:2px solid #67b03b; width:160px; " value=></td>
+                          <td width="34" align="right"><input type="image" src="http://kcoach.or.kr/images/common/btn_search.jpg"></td>
+                        </tr>
+                      </table>
+                    </form>
+		    
+		  </td>
+                </tr>
+            </table></td>
+          </tr>
+        </table>
+		
+		
+		</td>
+      </tr>
+      <tr>
+        <td height="7"></td>
+      </tr>
+
+      <tr>
+        <td style="background:url(http://kcoach.or.kr/images/common/menu_bg.jpg); ">
+		<!-- 메뉴 -->
+		<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><img src="http://kcoach.or.kr/images/common/menu_l.jpg"></td>
+            <td id='mm1'><a href="http://kcoach.or.kr/01about/about01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','http://kcoach.or.kr/images/common/menu01on.jpg',1)"><img src="http://kcoach.or.kr/images/common/menu01.jpg" name="Image21" border="0"></a></td>
+            <td id='mm2'><a href="http://kcoach.or.kr/02guide/guide01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','http://kcoach.or.kr/images/common/menu02on.jpg',1)"><img src="http://kcoach.or.kr/images/common/menu02.jpg" name="Image20" border="0"></a></td>
+            <td id='mm3'><a href="http://kcoach.or.kr/03certi/certi.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','http://kcoach.or.kr/images/common/menu03on.jpg',1)"><img src="http://kcoach.or.kr/images/common/menu03.jpg" name="Image22"  border="0"></a></td>
+            <td id='mm4'><a href="http://kcoach.or.kr/04biz/biz01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image23','','http://kcoach.or.kr/images/common/menu04on.jpg',1)"><img src="http://kcoach.or.kr/images/common/menu04.jpg" name="Image23" border="0"></a></td>
+            <td id='mm5'><a href="/bbs/board.php?bo_table=seminar" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image24','','http://kcoach.or.kr/images/common/menu05on.jpg',1)"><img src="http://kcoach.or.kr/images/common/menu05.jpg" name="Image24" border="0"></a></td>
+            <td id='mm6'><a href="/bbs/board.php?bo_table=notice" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','http://kcoach.or.kr/images/common/menu06on.jpg',1)"><img src="http://kcoach.or.kr/images/common/menu06.jpg" name="Image25" border="0"></a></td>
+            <td id='mm7'><a href="/07reference/reference01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image26','','http://kcoach.or.kr/images/common/menu07on.jpg',1)"><img src="http://kcoach.or.kr/images/common/menu07.jpg" name="Image26" border="0"></a></td>
+            <td width="22">&nbsp;</td>
+            <td><a href="#" class="all"><img src="http://kcoach.or.kr/images/common/menu_all.jpg" border="0" id='menu_view'></a></td>
+            <td align="right"><img src="http://kcoach.or.kr/images/common/menu_r.jpg"></td>
+          </tr>
+        </table>
+		<!-- 메뉴 끝-->
+
+
+		</td>
+      </tr>
+      <tr >
+        <td height="27" align="left" valign="top"  >
+				
+				<div id='sub_title'  style='width:1000px;position:absolute;z-index:2;background:url(../images/common/menu_s_bg.jpg) repeat-y bottom left;display:block;height:27px;'>
+
+				</div>
+
+		<!-- 서브메뉴1-->
+		<div id='sub_menu_1'  style='position:absolute;display:none;z-index:2;'>
+		<table width="930" border="0" cellspacing="0" cellpadding="0" style="margin-top:3px; ">
+		  <tr>
+			<td width="15">&nbsp;</td>
+			<td><table width="500" border="0" cellspacing="0" cellpadding="0">
+			  <tr>
+				<td width="35"><a href="/01about/about01.html"><img src="http://kcoach.or.kr/images/menu/all_01menu01.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/01about/about02.html"><img src="http://kcoach.or.kr/images/menu/all_01menu02.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/01about/about03.html"><img src="http://kcoach.or.kr/images/menu/all_01menu03.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/01about/about04.html"><img src="http://kcoach.or.kr/images/menu/all_01menu04.png" border="0"></a></td>
+			   <td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/01about/about05.html"><img src="http://kcoach.or.kr/images/menu/all_01menu05.png" border="0"></a></td>
+			   <td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/01about/about06.html"><img src="http://kcoach.or.kr/images/menu/all_01menu06.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/01about/about07.html"><img src="http://kcoach.or.kr/images/menu/all_01menu07.png" border="0"></a></td>
+			   <td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/01about/about08.html"><img src="http://kcoach.or.kr/images/menu/all_01menu08.png" border="0"></a></td>
+				<td>&nbsp;</td>
+			  </tr>
+			</table></td>
+		  </tr>
+		</table>
+		</div>
+		<!-- 서브메뉴 끝-->
+		
+		
+		
+		<!-- 서브메뉴2-->
+	<div id='sub_menu_2'  style='position:absolute;display:none;z-index:2;'>
+		<table width="930" border="0" cellspacing="0" cellpadding="0" style="margin-top:3px; ">
+		  <tr>
+			<td width="100">&nbsp;</td>
+			<td><table width="500" border="0" cellspacing="0" cellpadding="0">
+			  <tr>
+				<td width="35"><a href="/02guide/guide01.html"><img src="http://kcoach.or.kr/images/menu/all_02menu01.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/02guide/guide02.html"><img src="http://kcoach.or.kr/images/menu/all_02menu02.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/02guide/guide03.html"><img src="http://kcoach.or.kr/images/menu/all_02menu03.png" border="0"></a></td>
+				<td>&nbsp;</td>
+			  </tr>
+			</table></td>
+		  </tr>
+		</table>
+		</div>
+		<!-- 서브메뉴 끝-->
+		
+		
+		<!-- 서브메뉴3-->
+			<div id='sub_menu_3' style='position:absolute;display:none;z-index:2;'>
+		<table width="930" border="0" cellspacing="0" cellpadding="0" style="margin-top:3px; ">
+		  <tr>
+			<td width="180">&nbsp;</td>
+			<td><table width="500" border="0" cellspacing="0" cellpadding="0">
+			  <tr>
+				<td width="35"><a href="/03certi/certi.html"><img src="http://kcoach.or.kr/images/menu/all_03menu01.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/03certi/certi02.html"><img src="http://kcoach.or.kr/images/menu/all_03menu02.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/03certi/certi03.html"><img src="http://kcoach.or.kr/images/menu/all_03menu03.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/bbs/board.php?bo_table=certi_notice"><img src="http://kcoach.or.kr/images/menu/all_03menu04.png" border="0"></a></td>
+				<td>&nbsp;</td>
+			  </tr>
+			</table></td>
+		  </tr>
+		</table>
+		</div>
+		<!-- 서브메뉴 끝-->
+		
+		
+		<!-- 서브메뉴4-->
+			<div id='sub_menu_4' style='position:absolute;display:none;z-index:2;'>
+		<table width="930" border="0" cellspacing="0" cellpadding="0" style="margin-top:3px; ">
+		  <tr>
+			<td width="320">&nbsp;</td>
+			<td><table width="500" border="0" cellspacing="0" cellpadding="0">
+			  <tr>
+				<td width="35"><a href="/04biz/biz01.html"><img src="http://kcoach.or.kr/images/menu/all_04menu01.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/04biz/biz02.html"><img src="http://kcoach.or.kr/images/menu/all_04menu02.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/04biz/biz03.html"><img src="http://kcoach.or.kr/images/menu/all_04menu03.png" border="0"></a></td>
+				<td>&nbsp;</td>
+			  </tr>
+			</table></td>
+		  </tr>
+		</table>
+		</div>
+		<!-- 서브메뉴 끝-->
+		
+		
+		
+		<!-- 서브메뉴5-->
+			<div id='sub_menu_5'  style='position:absolute;display:none;z-index:2;'>
+		<table width="930" border="0" cellspacing="0" cellpadding="0" style="margin-top:3px; ">
+		  <tr>
+			<td width="280">&nbsp;</td>
+			<td><table width="500" border="0" cellspacing="0" cellpadding="0">
+			  <tr>
+				<td width="35"><a href="/bbs/board.php?bo_table=seminar"><img src="http://kcoach.or.kr/images/menu/all_05menu01.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/05edu/edu02.html"><img src="http://kcoach.or.kr/images/menu/all_05menu02.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/bbs/board.php?bo_table=edu_lab"><img src="http://kcoach.or.kr/images/menu/all_05menu03.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/bbs/board.php?bo_table=edu_coaching"><img src="http://kcoach.or.kr/images/menu/all_05menu04.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/bbs/board.php?bo_table=edu_etc"><img src="http://kcoach.or.kr/images/menu/all_05menu05.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/bbs/board.php?bo_table=edu_conference"><img src="http://kcoach.or.kr/images/menu/all_05menu06.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/05edu/edu07.html"><img src="http://kcoach.or.kr/images/menu/all_05menu07.png" border="0"></a></td>
+				<td>&nbsp;</td>
+			  </tr>
+			</table></td>
+		  </tr>
+		</table>
+		</div>
+		<!-- 서브메뉴 끝-->
+		
+		
+		<!-- 서브메뉴6-->
+			<div id='sub_menu_6' style='position:absolute;display:none;z-index:2;'>
+		<table width="930" border="0" cellspacing="0" cellpadding="0" style="margin-top:3px; ">
+		  <tr>
+			<td width="590">&nbsp;</td>
+			<td><table width="200" border="0" cellspacing="0" cellpadding="0">
+			  <tr>
+				<td width="35"><a href="/bbs/board.php?bo_table=notice"><img src="http://kcoach.or.kr/images/menu/all_06menu01.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/04biz/biz02_v3.html"><img src="http://kcoach.or.kr/images/menu/all_06menu02.png" border="0"></a></td>
+				<td>&nbsp;</td>
+			  </tr>
+			</table></td>
+		  </tr>
+		</table>
+		</div>
+		<!-- 서브메뉴 끝-->
+		
+		<!-- 서브메뉴7-->
+	<div id='sub_menu_7' style='position:absolute;display:none;z-index:2;'>
+		<table width="930" border="0" cellspacing="0" cellpadding="0" style="margin-top:3px; ">
+		  <tr>
+			<td width="330">&nbsp;</td>
+			<td><table width="500" border="0" cellspacing="0" cellpadding="0">
+			  <tr>
+				<td width="35"><a href="/07reference/reference01.html"><img src="http://kcoach.or.kr/images/menu/all_07menu01.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/bbs/board.php?bo_table=coaching"><img src="http://kcoach.or.kr/images/menu/all_07menu02.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/bbs/board.php?bo_table=global"><img src="http://kcoach.or.kr/images/menu/all_07menu03.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/bbs/board.php?bo_table=edu_pds"><img src="http://kcoach.or.kr/images/menu/all_07menu04.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/bbs/board.php?bo_table=edu_mov"><img src="http://kcoach.or.kr/images/menu/all_07menu05.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/bbs/board.php?bo_table=etc_pds"><img src="http://kcoach.or.kr/images/menu/all_07menu06.png" border="0"></a></td>
+				<td width="7"><img src="http://kcoach.or.kr/images/menu/all_menu_line.png" ></td>
+				<td width="27"><a href="/bbs/board.php?bo_table=magazine"><img src="http://kcoach.or.kr/images/menu/all_07menu07.png" border="0"></a></td>
+				<td>&nbsp;</td>
+			  </tr>
+			</table></td>
+		  </tr>
+		</table>
+		</div>
+		<!-- 서브메뉴 끝-->
+		
+		</td>
+      </tr>
+    </table>
+	<!--상단끝 -->
+
+<style type="text/css">
+<!--
+.stepcarousel{
+	position: relative;
+	overflow: scroll;
+	width: 490px;
+	height: 295px;
+}
+
+.stepcarousel .belt{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.stepcarousel .panel{
+	float: left; /*leave this value alone*/
+	overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+	margin: 0px; /*margin around each panel*/
+	width: 490px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+}
+
+#promotion{
+	width: 490px;
+	height: 295px;
+	border: 0;
+}
+
+#promotion .panel{
+	height: 295px;
+	text-align: center;
+}
+-->
+</style>
+<script type="text/javascript" src="/js/number_slideshow.js"></script>
+
+
+<script>
+  (function() {
+    var cx = '003061044801669495695:zkkw09vh8mi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchresults-only></gcse:searchresults-only>
+
+	
+	<!--푸터 카피라이트-->
+	<table width="946" border="0" cellspacing="0" cellpadding="0" class="footer">
+	  <tr>
+		<td width="190" class="footer01"><img src="http://kcoach.or.kr/images/common/footer_logo.jpg" width="190" height="42"></td>
+	    <td class="footer02"><img src="http://kcoach.or.kr/images/common/footer_txt.jpg" width="645" height="63"></td>
+	  </tr>
+	</table>
+
+	
+	<!--푸터 카피라이트 끝-->
+	
+	
+	
+	</td>
+  </tr>
+</table>
+</body>
+</html>
+
+<script type="text/javascript">
+<!--
+	
+//-->
+
+$(document).ready(function(){
+	var left_size =$(window).width();
+	$("#Layer1").css({'left':(left_size/2)-473});
+	$("#Layer2").css({'left':(left_size/2)-473});
+	$("#menu_view").toggle(first,second);	
+	
+	$("#mm1").mouseover(function(){
+					$("#sub_title").show();
+			$("#sub_menu_1").show();
+
+								
+					$("#sub_menu_2").hide();
+										
+					$("#sub_menu_3").hide();
+										
+					$("#sub_menu_4").hide();
+										
+					$("#sub_menu_5").hide();
+										
+					$("#sub_menu_6").hide();
+										
+					$("#sub_menu_7").hide();
+					
+	});
+
+
+		
+	$("#mm2").mouseover(function(){
+					$("#sub_title").show();
+			$("#sub_menu_2").show();
+
+								
+					$("#sub_menu_1").hide();
+										
+					$("#sub_menu_3").hide();
+										
+					$("#sub_menu_4").hide();
+										
+					$("#sub_menu_5").hide();
+										
+					$("#sub_menu_6").hide();
+										
+					$("#sub_menu_7").hide();
+					
+	});
+
+
+		
+	$("#mm3").mouseover(function(){
+					$("#sub_title").show();
+			$("#sub_menu_3").show();
+
+								
+					$("#sub_menu_1").hide();
+										
+					$("#sub_menu_2").hide();
+										
+					$("#sub_menu_4").hide();
+										
+					$("#sub_menu_5").hide();
+										
+					$("#sub_menu_6").hide();
+										
+					$("#sub_menu_7").hide();
+					
+	});
+
+
+		
+	$("#mm4").mouseover(function(){
+					$("#sub_title").show();
+			$("#sub_menu_4").show();
+
+								
+					$("#sub_menu_1").hide();
+										
+					$("#sub_menu_2").hide();
+										
+					$("#sub_menu_3").hide();
+										
+					$("#sub_menu_5").hide();
+										
+					$("#sub_menu_6").hide();
+										
+					$("#sub_menu_7").hide();
+					
+	});
+
+
+		
+	$("#mm5").mouseover(function(){
+					$("#sub_title").show();
+			$("#sub_menu_5").show();
+
+								
+					$("#sub_menu_1").hide();
+										
+					$("#sub_menu_2").hide();
+										
+					$("#sub_menu_3").hide();
+										
+					$("#sub_menu_4").hide();
+										
+					$("#sub_menu_6").hide();
+										
+					$("#sub_menu_7").hide();
+					
+	});
+
+
+		
+	$("#mm6").mouseover(function(){
+					$("#sub_title").show();
+			$("#sub_menu_6").show();
+
+								
+					$("#sub_menu_1").hide();
+										
+					$("#sub_menu_2").hide();
+										
+					$("#sub_menu_3").hide();
+										
+					$("#sub_menu_4").hide();
+										
+					$("#sub_menu_5").hide();
+										
+					$("#sub_menu_7").hide();
+					
+	});
+
+
+		
+	$("#mm7").mouseover(function(){
+					$("#sub_title").show();
+			$("#sub_menu_7").show();
+
+								
+					$("#sub_menu_1").hide();
+										
+					$("#sub_menu_2").hide();
+										
+					$("#sub_menu_3").hide();
+										
+					$("#sub_menu_4").hide();
+										
+					$("#sub_menu_5").hide();
+										
+					$("#sub_menu_6").hide();
+					
+	});
+
+
+		});
+</script>
+<Script>
+	function getCookie(name) {
+		var nameOfCookie = name + "=";
+		var x = 0
+		while ( x <= document.cookie.length ) {
+			var y = (x+nameOfCookie.length);
+			if ( document.cookie.substring( x, y ) == nameOfCookie ) {
+				if ( (endOfCookie=document.cookie.indexOf( ";",y )) == -1 )
+				endOfCookie = document.cookie.length;
+				return unescape( document.cookie.substring(y, endOfCookie ) );
+			}
+			x = document.cookie.indexOf( " ", x ) + 1;
+			if ( x == 0 )
+			break;
+		}
+		return "";
+	}
+
+if (getCookie("_DontOpen") != "Okay") {
+	try { 
+		document.getElementById("how_popup").style.display = "";
+	} catch (e) {
+	//  alert(e);
+	}
+} else {
+	try { 
+		document.getElementById("how_popup").style.display = "none";
+	} catch (e) {
+	//  alert(e);
+	}
+}
+function hide_pop(){
+
+	$("#how_popup").hide();
+}
+</script>
+
+<!-- 
+<div id="how_popup" style="position:absolute;top:80px;left:10px;z-index:999999;font-align:right;background-color:gray;"><a href="http://conference.kcoach.or.kr/11th/" target="_blank"><img src="/images/popup/11st_popup.gif"><a/><br>
+<span style='margin-left:350px'><a href="javascript:hide_pop();"><font color="white">닫기</font></a></span></div>
+ -->
