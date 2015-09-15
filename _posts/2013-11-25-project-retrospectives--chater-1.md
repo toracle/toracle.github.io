@@ -5,6 +5,8 @@ date:   2013-11-25 23:36
 categories: 전공노트
 ---
 
+Norm Kerth의 Project Retrospectives 1장 정리
+
 ## Preface
 
 > but sometimes he feels that there really is another way, if only he could stop bumping for a moment and think of it.

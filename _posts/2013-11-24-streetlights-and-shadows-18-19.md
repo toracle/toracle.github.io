@@ -5,6 +5,8 @@ date:   2013-11-24 21:54:00
 categories: 전공노트
 ---
 
+Gary Klein의 Streetlights and Shadows 18, 19장 정리
+
 ## 18장. 의사결정의 잘못된 10가지 믿음 (Reclaming our minds)
 
 페이지 첫 장의 총 정리 표. 스포일러가 될 수 있어서 블로그에서는 제외했다. :-)
