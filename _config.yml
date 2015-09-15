@@ -1,5 +1,5 @@
 # Build settings
-markdown: redcarpet
+# markdown: redcarpet
 highlighter: pygments
   
 # Site settings
