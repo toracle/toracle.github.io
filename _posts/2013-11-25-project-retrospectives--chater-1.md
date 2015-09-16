@@ -2,7 +2,7 @@
 layout: post
 title: "Project Retrospectives - Chap 1. Introduction to Retrospectives"
 date:   2013-11-25 23:36
-categories: 전공노트
+categories: study
 ---
 
 Norm Kerth의 Project Retrospectives 1장 정리

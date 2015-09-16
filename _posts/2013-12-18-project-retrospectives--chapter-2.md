@@ -2,7 +2,7 @@
 layout: post
 title: "Project Retrospectives - Chap 2. Anatomy of a Retrospective: A Case Study"
 date:   2013-12-18 00:06:00
-categories: 전공노트
+categories: study
 ---
 
 Norm Kerth의 Project Retrospectives 2장 정리

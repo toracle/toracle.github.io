@@ -2,10 +2,10 @@
 layout: post
 title:  "Streetlights and Shadows - 18, 19장"
 date:   2013-11-24 21:54:00
-categories: 전공노트
+categories: study
 ---
 
-Gary Klein의 Streetlights and Shadows 18, 19장 정리
+Gary Klein의 Streetlights and Shadows 18, 19장 정리. 의사결정의 잘못된 10가지 믿음에 관한 정리 및 결언.
 
 ## 18장. 의사결정의 잘못된 10가지 믿음 (Reclaming our minds)
 
