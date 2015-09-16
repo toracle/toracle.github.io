@@ -5,6 +5,8 @@ date:   2013-11-10 23:41:00
 categories: study
 ---
 
+Gary Klein의 Streetlights and Shadows 11장 정리
+
 ## 11장 효과적으로 피드백하는 법
 
 ### 주장 6. 사람들을 배우게 하려면 그들 행동의 결과에 대해 피드백을 해줘야 한다.
