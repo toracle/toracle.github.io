@@ -62,6 +62,26 @@
             {% endfor %}
           </section>
         </footer>
+
+        <footer class="post-footer">
+          <section class="share">
+	    <div id="livereContainer">
+	      <script type="text/javascript">
+		var consumer_seq 	= "200";
+		var livere_seq 		= "24336";
+		var smartlogin_seq 	= "228";
+		
+		var title = "{% if page.title %}{{ page.title}}{% else %}{{ site.title }}{% endif %}";
+		var refer = "{{ page.url | prepend: site.baseurl | prepend: site.url | replace:'http://', '' }}";
+
+
+		livereReply = new Livere( livere_seq , refer , title );
+		livereLib.start();
+	      </script>
+	    </div>
+	  </section>
+	</footer>
+
         <div class="bottom-teaser cf">
           <div class="isLeft">
             <h5 class="index-headline featured"><span>Written by</span></h5>
