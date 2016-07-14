@@ -19,6 +19,8 @@ author_image: "/assets/images/author.jpg"
 
 paginate:	10
 
+gems: [jekyll-paginate]
+
 url: "http://toracle.github.io" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
