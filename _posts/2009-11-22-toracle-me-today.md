@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "toracle의 미투데이 - 2009년 11월 22일"
+title: "미투데이 - 팀에 Pair Programming을 도입하기"
 date: 2009-11-22 04:32
-categories: ⊙ 짧은 생각들
+categories: study
 ---
 
 팀에 Pair Programming을 도입하는게 왜 이렇게 어려울까 고민만 했었는데, 그걸 개선하고자 하는 노력은 정작 하지 않고 있었구나. PP에 대한 논문을 십수개 출력해서 읽다보니, 왜 진작 이렇게 할 생각을 못했을까 아쉬운 생각이 드네.(twi2me) [ 2009-11-22 01:10:51 ]

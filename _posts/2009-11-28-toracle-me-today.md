@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "toracle의 미투데이 - 2009년 11월 27일"
+title: "미투데이 - Fearless Change 번역본"
 date: 2009-11-28 04:32
-categories: ⊙ 짧은 생각들
+categories: study
 ---
 
 Fearless Change 번역본은 언제 나올까요… arload님이 번역중이라시던데.. http://ko.wordpress.com/tag/fearless-change 기대됩니다.(twi2me) [ 2009-11-27 13:21:11 ]
