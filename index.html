@@ -76,7 +76,7 @@ layout: default
               <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
               <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>
               <div>
-              	<a href="{{ post.url }}#disqus_thread" data-disqus-identifier="article_1_identifier"><!-- Count will be inserted here --></a>
+              	<a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}"><!-- Count will be inserted here --></a>
               </div>
             </div>
           </div>
