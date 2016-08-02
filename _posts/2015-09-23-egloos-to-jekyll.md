@@ -3,6 +3,12 @@ layout: post
 title: "이글루스 블로그 포스트를 Jekyll 포스트로 옮기기"
 date: 2015-09-23 09:00
 categories: study
+tags:
+ - egloos
+ - jekyll
+ - blog
+ - migration
+ - clojure
 ---
 
 이글루스 서비스에 올려져 있던 기존 블로그 포스트들을 jekyll 포스트로 옮겨오는 작업을 했다. 초반에 몇 개는 복사/붙여넣기와 텍스트 편집을 사용했는데, 하나당 소요되는 시간이 꽤 많이 들어서 자동화의 필요성이 있었다.

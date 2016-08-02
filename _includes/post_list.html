@@ -1,0 +1,25 @@
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+            <header class="post-header">
+              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url"">{{ post.title }}</a></h2>
+            </header>
+            <section class="post-excerpt" itemprop="description">
+          		<p>
+          		  {% if post.summary %}
+		              {{ post.summary }}
+		            {% else %}
+		              {{ post.content | strip_html | truncatewords: 50 }}
+		            {% endif %}
+		          </p>
+            </section>
+            <div class="post-meta">
+              <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+              {% if post.tags != empty %}
+              <span class="post-tags-set">on {% for tag in post.tags %}<span class="post-tag-{{tag}}">{% if forloop.first == false %}, {% endif %}<a href="/tag/{{tag}}">{{tag}}</a></span>{% endfor %}</span>
+              {% endif %}
+              <div>
+              	<a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}"><!-- Count will be inserted here --></a>
+              </div>
+            </div>
+          </div>
+        </article>
