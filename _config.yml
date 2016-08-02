@@ -29,7 +29,7 @@ baseurl: ""
 twitter_handle: '@toracle'
 
 #fill in disqus shortname to use disqus
-#disqus: disqus-shortname
+disqus: "toracle-blog"
 
 # social icons and sharing options
 social:
