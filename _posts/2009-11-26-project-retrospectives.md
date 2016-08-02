@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "프로젝트 회고를 진행하다"
+title: "미투데이 - 프로젝트 회고를 진행하다"
 date: 2009-11-26 19:01:02
 categories: essay
 ---
