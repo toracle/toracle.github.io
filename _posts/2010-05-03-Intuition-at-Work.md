@@ -2,7 +2,7 @@
 layout: post
 title: "Intuition at Work"
 date: 2010-05-03
-categories: study
+categories: essay
 ---
 
  * Title: Intuition at Work
