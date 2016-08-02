@@ -64,22 +64,8 @@
         </footer>
 
         <footer class="post-footer">
-          <section class="share">
-	    <div id="livereContainer">
-	      <script type="text/javascript">
-		var consumer_seq 	= "200";
-		var livere_seq 		= "24336";
-		var smartlogin_seq 	= "228";
-		
-		var title = "{% if page.title %}{{ page.title}}{% else %}{{ site.title }}{% endif %}";
-		var refer = "{{ page.url | prepend: site.baseurl | prepend: site.url | replace:'http://', '' }}";
-
-
-		livereReply = new Livere( livere_seq , refer , title );
-		livereLib.start();
-	      </script>
-	    </div>
-	  </section>
+            <section class="share">
+	    </section>
 	</footer>
 
         <div class="bottom-teaser cf">
@@ -109,7 +95,12 @@
         <div id="disqus_thread"></div>
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = '{{site.disqus}}'; // required: replace example with your forum shortname
+            var disqus_shortname = 'toracle-blog'; // required: replace example with your forum shortname
+
+	    var disqus_config = function () {
+		this.page.url = {{ page.url }};  // Replace PAGE_URL with your page's canonical URL variable
+		this.page.identifier = {{ page.id }}; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	    };
 
             /* * * DON'T EDIT BELOW THIS LINE * * */
             (function() {
