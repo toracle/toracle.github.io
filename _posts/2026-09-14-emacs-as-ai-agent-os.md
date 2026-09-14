@@ -8,25 +8,21 @@ tags: [emacs, ai, english]
 
 I’ve always felt that in the age of AI, Emacs can be far more than just a text editor. Its live-programming environment and interactive Lisp runtime give it incredible potential to evolve into an AI OS. Here is how my small hobby project grew step by step.
 
-### 1. From vterm to claude-code-ide.el
+### The Spark: cmux and "emux"
 
 As a long-time Emacs user, I started out simply running Claude Code inside Emacs using `vterm`. Soon after, I discovered `claude-code-ide.el`, which made it much easier to manage and switch between multiple Claude Code `vterm` buffers at once.
 
-### 2. The Spark: cmux and "emux"
-
 Around that time, I saw cmux and felt a bit jealous of how much developers loved it. But when I looked closer, its core feature was essentially a session list side panel—something remarkably easy to implement in Emacs. I thought, “*Emacs can do this, and even better*.” So I decided to build my own "emux" inside Emacs someday.
-
-### 3. Manual Session Manager & Inter-Session Communication
 
 One day, I sat down and vibe-coded a basic version. At first, it was just a manual session manager. But to take it further, I used `ghostel` to establish a PTY-based inter-session communication layer directly on top of `claude-code-ide.el`.
 
-### 4. Giving It Intelligence: The Birth of Butler
+### Giving It Intelligence: The Birth of Butler
 
 Next, I added an orchestration layer and created [cc-butler](https://github.com/toracle/cc-butler). I gave one specific Claude Code session the responsibility to govern, assign tasks to, and receive reports from all the other worker sessions. I named this manager session Butler.
 
 I provided Butler with specific functions so it could autonomously spawn new Claude Code sessions when needed and handle cleanups on its own. It even monitors the context size of worker sessions and triggers compaction automatically. Using `cc-butler`, I was able to comfortably orchestrate tens of concurrent Claude Code sessions on my machine.
 
-### 5. Scaling Outside One Machine via Matrix
+### Scaling Outside One Machine via Matrix
 
 Eventually, I wanted to scale beyond a single machine. How do you manage two or more agent fleets across different machines? I looked into classic, battle-tested protocols like IRC and XMPP, and settled on Matrix. I vibe-coded a lightweight Matrix client entirely in Elisp. While great packages like `ement.el` already exist, they are designed primarily for human interaction—I needed something built specifically for agent-to-agent communication.
 
