@@ -34,4 +34,8 @@ Now, I don't even sit in a traditional terminal anymore. I run my daily Startup 
 
 A lot of what I'm building gives me immense deja vu from traditional OS and Ops infrastructure design. To be clear, this is a personal hobby project and a proof of concept—it's still pretty fragile and definitely not production-ready! But I wanted to share my experience and show how Emacs continues to be an incredible source of inspiration in this AI era.
 
+There were also a few rough edges in doing this in Emacs. Emacs is single-threaded while the Claude Code sessions work in parallel, so it sometimes hangs. It also hangs, or even crashes, now and then because of font rendering on macOS. And while I like Emacs daemon mode, when just one buffer hangs the whole daemon hangs, which can take all the Claude Code sessions down with it.
+
+`cc-butler` is just a PoC, and I believe many other Emacs hackers can do better than this. I'm not very good at developing Emacs extensions, so I hope others will pioneer developing Emacs as an AI OS. I believe Emacs has the potential for it.
+
 Check out the repo (https://github.com/toracle/cc-butler) if you're interested!
