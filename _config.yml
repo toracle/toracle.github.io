@@ -28,8 +28,6 @@ baseurl: ""
 #used to display twitter cards
 twitter_handle: '@toracle'
 
-#fill in disqus shortname to use disqus
-disqus: "toracle-blog"
 
 # social icons and sharing options
 social:
